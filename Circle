@@ -1,0 +1,12 @@
+class Circle:
+    def calc(self):
+        self.radius = 10
+    def calcPerimeter(self,radius):
+        print(2*radius*3.14)
+    def calcArea(self,radius):
+        print(radius*radius*3.14)
+myCircle = Circle()
+myCircle.calcPerimeter(10)
+myCircle.calcArea(10)
+myCircle.calcPerimeter(100)
+myCircle.calcArea(100)
